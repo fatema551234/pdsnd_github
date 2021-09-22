@@ -41,7 +41,7 @@ def get_filters():
         else:
             print("\nCan you type the right day, please!")
 
-    print('-'*40)
+    print('='*70)
     return city, month, day
 
 
