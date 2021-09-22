@@ -41,7 +41,7 @@ def get_filters():
         else:
             print("\nCan you type the right day, please!")
 
-    print('-'*40)
+    print('='*70)
     return city, month, day
 
 
@@ -86,7 +86,7 @@ def time_stats(df):
     print("\nThe most common start hour :", df["hour"].mode()[0])
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('='*70)
 
 
 def station_stats(df):
@@ -103,7 +103,7 @@ def station_stats(df):
     print("\nMost frequent combination of start and end station trip: ", most_f_combination)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('='*70)
 
 
 def trip_duration_stats(df):
